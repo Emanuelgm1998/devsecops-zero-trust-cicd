@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.json({ message: "Secure DevSecOps API running" });
+  res.status(200).json({ message: "Secure DevSecOps API running with Zero Trust" });
 });
 
 module.exports = router;

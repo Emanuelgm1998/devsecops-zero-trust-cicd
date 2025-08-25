@@ -73,5 +73,7 @@ Automatización para no depender de revisiones manuales.
 Este proyecto está licenciado bajo MIT.
 
 👨‍💻 Autor
+© 2025 Emanuel — Licencia MIT
 
-Emanuel Gonzalez Michea
+🌐 LinkedIn
+https://www.linkedin.com/in/emanuel-gonzalez-michea/

@@ -32,3 +32,46 @@ Servir como base para proyectos profesionales de Cloud, SysOps y Seguridad.
 📜 Zero Trust Policy: documentación incluida para aplicar principios Zero Trust.
 
 💻 Ready-to-use en GitHub Codespaces o entornos locales.
+
+⚙️ Requisitos
+
+Node.js v20+
+
+Docker (para escaneo con Trivy)
+
+GitHub Codespaces o local dev environment
+
+▶️ Uso rápido
+Ejecutar localmente
+npm install
+npm run start
+
+
+API disponible en: http://localhost:3000
+
+Ejecutar en Codespaces
+npm install
+npm run dev
+
+Ejecutar pruebas y análisis
+npm run lint        # ESLint
+gitleaks detect     # Secret scanning
+trivy fs .          # Container scanning
+
+🔐 Seguridad aplicada
+
+Zero Trust: cada capa (API, contenedor, código, secrets) tiene controles independientes.
+
+Principio de menor privilegio en CI/CD.
+
+Monitoreo continuo con escaneo automático en cada push/PR.
+
+Automatización para no depender de revisiones manuales.
+
+📜 Licencia
+
+Este proyecto está licenciado bajo MIT.
+
+👨‍💻 Autor
+
+Emanuel Gonzalez Michea

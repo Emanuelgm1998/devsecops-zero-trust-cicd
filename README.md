@@ -234,7 +234,7 @@ jobs:
 
 **MIT** — Úsalo, modifícalo y distribúyelo citando la fuente.
 
----
+
 
 ## 👨‍💻 Autor
 

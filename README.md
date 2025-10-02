@@ -228,7 +228,7 @@ jobs:
 * **ESLint rompe build** → corrige reglas o ajusta severidad, nunca desactives sin motivo.
 * **Permisos insuficientes** en Actions → revisa `permissions:` y `secrets` del repo/org.
 
----
+
 
 ## 📄 Licencia
 
